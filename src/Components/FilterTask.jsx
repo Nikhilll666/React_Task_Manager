@@ -50,7 +50,7 @@ function FilterTask({ tasks, onDelete, onEdit }) {
     <select
       value={priority}
       onChange={(el) => setPriority(el.target.value)}
-      className="min-w-[140px] py-2 px-3 bg-orange-200 hover:bg-orange-300 rounded-lg"
+      className="min-w-[140px] py-2 px-3 bg-purple-500 text-white hover:bg-purple-600 rounded-lg"
     >
       <option value="all">All</option>
       <option value="low">Low</option>
@@ -64,7 +64,7 @@ function FilterTask({ tasks, onDelete, onEdit }) {
                 <select
                 value={status}
                 onChange={(el) => setStatus(el.target.value)}
-                className="min-w-[140px] py-2 px-3 bg-orange-200 hover:bg-orange-300 rounded-lg"
+                className="min-w-[140px] py-2 px-3 bg-purple-500 text-white hover:bg-purple-600 rounded-lg"
                 >
                 <option value="all">All</option>
                 <option value="pending">Pending</option>
