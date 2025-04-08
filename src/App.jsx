@@ -2,7 +2,6 @@ import React from 'react'
 import CreateTask from './Components/CreateTask'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
